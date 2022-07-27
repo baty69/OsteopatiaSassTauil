@@ -1,0 +1,38 @@
+
+.text-grey {
+  color:$secundario;
+}
+
+h1{
+  animation-name: textAlpha;
+  animation-duration: 8s;
+}
+
+h1,h2,h3{
+  color:$terciario;
+}
+
+p{
+  color:$cuaternario;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+}
+
+.textBlack{
+  color:$quinario;
+}
+
+.background-light {
+  background-color:$sexagenario;
+}
+      
+.detalle__articulo {
+  border-top: solid $primario 7px;
+  margin-bottom: 40px;
+}
+
+@keyframes textAlpha{
+  from{opacity: 0}
+  to{opacity: 1}
+}
